@@ -94,9 +94,8 @@ TextBox.TextScaled = true
 TextBox.TextSize = 14.000
 TextBox.TextWrapped = true
 
--- Scripts:
 
-local function UVMBTP_fake_script() -- Open.LocalScript 
+local function UVMBTP_fake_script() 
 	local script = Instance.new('LocalScript', Open)
 
 	local open = script.Parent
@@ -116,7 +115,7 @@ local function UVMBTP_fake_script() -- Open.LocalScript
 	
 end
 coroutine.wrap(UVMBTP_fake_script)()
-local function QJCEWW_fake_script() -- Close.Script 
+local function QJCEWW_fake_script()
 	local script = Instance.new('Script', Close)
 
 	local equis = script.Parent
