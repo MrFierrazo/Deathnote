@@ -1,7 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
 repeat wait() until game:IsLoaded()
 local Player = game:GetService("Players").LocalPlayer
 Player.Chatted:Connect(function(Key)
@@ -15,7 +11,6 @@ local TextButton = Instance.new("TextButton")
 local TextLabel = Instance.new("TextLabel")
 local TextBox = Instance.new("TextBox")
 
---Properties:
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
